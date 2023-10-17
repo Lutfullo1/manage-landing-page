@@ -1,0 +1,48 @@
+.contact{
+    background-color: #F3603C;
+    padding: 62px 165px;
+}
+
+.contact__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact__title{
+    color: #FFF;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px; 
+    letter-spacing: -0.714px;
+    max-width: 445px;
+}
+
+.contact__btn{
+    padding: 13px 32px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    border-radius: 39px;
+    color: #F3603C;
+    background-color: #FCF6F5;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+    .contact{
+        padding: 91px 31px;
+    }
+    .contact__container{
+        flex-direction: column;
+    }
+
+    .contact__title{
+        text-align: center;
+        margin-bottom: 29px;
+    }
+}
